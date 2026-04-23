@@ -1,4 +1,4 @@
-About: A customizable link-in-bio page built as a beginner coding project and commented to aid in learning HTML, CSS and JavaScript. Meant to replace my "Linktree" in my Instagram bio. 
+About: A customizable link-in-bio page built as a beginner coding project and commented to aid in learning HTML, CSS and JavaScript. Meant to replace a "Linktree" in an Instagram bio. 
 
 Project Name: Natalie's Custom Link Page
 

@@ -55,6 +55,28 @@ body {
     font-weight: 400; /*sets the font width to 400*/
 }
 
+.page-section-label {
+    font-family: 'Genty Sans'; /*sets the font to "Genty Sans"*/
+    font-size: 30px; /*sets the font height to 20px*/
+    font-weight: 900; /*sets the font width to 500*/
+    letter-spacing: 0.18em; /*sets the spacing between letters to 0.18em which is scalable based on font size*/
+    text-transform: uppercase; /*changes the text to be all uppercase*/
+    color: var(--maintextcolor); /*sets the text color to "maintextcolor" (dark grey crimson)*/
+    text-align: center; /*centers the text horizontally*/
+    margin-bottom: 1rem; /*adds 1rem (scalable with font size) of margin below the text*/
+    margin-top: 1rem; /*adds 1rem (scalable with font size) of margin above the text*/
+    display: flex; /*sets the display to a flex box so you can control how child elements are arranged inside the body*/
+    align-items: center; /*centers content vertically*/
+    gap: 10px; /*adds a gap of 10 px before and after the subtitle text*/
+}
+
+.page-section-label::before, .page-section-label::after {
+    content: ''; /*indicates that there is content to show*/
+    flex: 1; /*tells the flex display to fill the space evenly on both sides of the text with the content*/
+    height: 2px; /*sets the height of the content to 2px*/
+    background: var(--border); /*sets the color to "border" (dark grey crimson)*/
+}
+
 .portfolio-section {
     background: var(--cardbg); /*sets the link button background to "cardbg" (white)*/
     border-radius: 16px; /*sets the link button border radius to 16px*/
@@ -67,7 +89,7 @@ body {
 
 .carousel-type-label {
     font-family: 'Genty Sans'; /*sets the font to "Genty Sans"*/
-    font-size: 1.2rem; /*sets the font height to 1.2rem*/
+    font-size: 1.5rem; /*sets the font height to 1.2rem*/
     font-weight: 600; /*sets the font width to 600*/
     color: var(--maintextcolor); /*sets the text color to "maintextcolor" (dark grey crimson)*/
     margin-bottom: 0.4rem; /*adds 0.5rem (scalable with font size) of margin below the text*/
@@ -76,7 +98,7 @@ body {
 .commission-badge {
     display: inline-flex; /*sets the display to a flex box so you can control how child elements are arranged inside the reading tag*/
     align-items: center; /*center aligns items*/
-    font-size: 10px; /*sets the font height to 20px*/
+    font-size: 14px; /*sets the font height to 20px*/
     font-weight: 500; /*sets the font width to 500*/
     letter-spacing: 0.1em; /*sets the spacing between letters to 0.18em which is scalable based on font size*/
     text-transform: uppercase; /*changes the text to be all uppercase*/

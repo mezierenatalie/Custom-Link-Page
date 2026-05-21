@@ -1,27 +1,44 @@
-About: A customizable link-in-bio page built as a beginner coding project and commented to aid in learning HTML, CSS and JavaScript. Meant to replace a "Linktree" in an Instagram bio. 
+# custom-link-page
 
-Project Name: Natalie's Custom Link Page
+[![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
+TODO: Put more badges here.
 
-Project Description: static web page that displays multiple custom links and an automatically updating "currently reading" widget using Goodreadss RSS.
+A customizable link-in-bio page built as a beginner coding project and commented to aid in learning HTML, CSS and JavaScript. Meant to replace a &#34;Linktree&#34; in an Instagram bio.
 
-Link: https://mezierenatalie.github.io/Custom-Link-Page/
+TODO: Fill out this long description.
 
-Features: 
-* Auto-updating "currently reading" widget using Goodreads RSS
-* Favicon icons pulled from linked sites automatically
-* Responsive to mobile layout
+## Table of Contents
 
-How it Works: The "currently reading" widget fetches your Goodreads "currently-reading" shelf RSS feed on every page load. But because browsers block direct requests to other websites, the RSS URL is routed through allorigins.win, a free CORS proxy, to fetch the data and pass it back. The RSS response is parsed as XML, the most recently added book entry is extracted, the title, author, and cover image are added to a styled card for viewing. 
+- [Background](#background)
+- [Install](#install)
+- [Usage](#usage)
+- [Maintainers](#maintainers)
+- [Contributing](#contributing)
+- [License](#license)
 
-How to Customize:
-* Change the Goodreads user: update "GOODREADS_USER_ID" in the "currentlyreadingscript.js" file with your own Goodreads User ID.
-  * To find your Goodreads User ID:
-    * Go to Goodreads > Profile
-    * Your User ID is the number in the URL after: https://www.goodreads.com/user/show/[#########]
-    * Note: "currently reading" shelf must be set to public.
-      * Go to "Account Settings" > "Account & Notifications" > "Privacy"
-      * Click "anyone (including search engines)" under "Who can view my profile:"
-* Add or change link buttons: update the href URL, favicon domain, and display text inside the <a class="link-button"> block.
-* Change colors: update hex codes in the :root block in the "linkpagestyles.css" file.
+## Background
 
-Technologies Used: HTML, CSS, JavaScript
+## Install
+
+```sh
+```
+
+## Usage
+
+```sh
+```
+
+## Maintainers
+
+[@Natalie Meziere](https://github.com/Natalie Meziere)
+
+## Contributing
+
+
+
+Small note: If editing the README, please conform to the
+[standard-readme](https://github.com/RichardLitt/standard-readme) specification.
+
+## License
+
+MIT © 2026 Natalie Meziere
